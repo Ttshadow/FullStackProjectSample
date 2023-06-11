@@ -1,0 +1,157 @@
+.customer_order_container{
+    min-height: 75vh;
+    margin: 3em auto;
+    font-size: 0.9rem;
+    width: 80%;
+}
+.customer_order_container-top{
+    padding: 0.7rem 5rem;
+}
+.customer_order_container-top a{
+    float: left;
+    margin-top: 0.7rem;
+}
+.customer_order_container-body{
+    background-image: url("https://i.imgur.com/4bg1e6u.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media(max-width:768px){
+    .customer_order_container-body{
+        padding: 0 1rem 1rem 1rem;
+        background-image: url("https://i.imgur.com/4bg1e6u.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }  
+    .customer_order_container-top{
+        padding: 0.7rem 1rem;
+    }
+}
+.upper{
+    padding: 1rem 0;
+    justify-content: space-evenly;
+}
+#three{
+    border-radius: 1rem;
+    width: 22px;
+    height: 22px;
+    margin-right:3px;
+    border: 1px solid blue;
+    text-align: center;
+    display: inline-block;
+}
+#payment{
+    margin:0;
+    color: blue;
+}
+.icons{
+    margin-left: auto;
+}
+form span{
+    color: rgb(179, 179, 179);
+}
+form{
+    padding: 2vh 0;
+}
+input{
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+input:focus::-webkit-input-placeholder
+{
+      color:transparent;
+}
+.header{
+    font-size: 1.5rem;
+}
+.left{
+    background-color: #ffffff;
+    padding: 2vh;   
+}
+.left img{
+    width: 2rem;
+}
+.left .col-4{
+    padding-left: 0;
+}
+.right .item{
+    padding: 0.3rem 0;
+}
+.right{
+    background-color: #ffffff;
+    padding: 2vh;
+}
+.lower{
+    line-height: 2;
+}
+.order_btn{
+    background-color: rgb(23, 4, 189);
+    border-color: rgb(23, 4, 189);
+    color: white;
+    width: 100%;
+    font-size: 0.7rem;
+    margin: 4vh 0 1.5vh 0;
+    padding: 1.5vh;
+    border-radius: 0;
+}
+.order_btn:focus{
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    transition: none; 
+}
+.order_btn:hover{
+    color: white;
+}
+#cvv{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.575) , rgba(255, 255, 255, 0.541)), url("https://img.icons8.com/material-outlined/24/000000/help.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+} 
+#cvv:hover{
+
+}
+.promo_code_btn{
+    background-color: rgb(23, 4, 189);
+    border-color: rgb(23, 4, 189);
+    color: white;
+    font-size: 0.7rem;
+    margin: 4vh 0 1.5vh 0;
+    padding: 1.5vh;
+    width: 150px;
+    height: 50px;
+    border-radius: 10%;
+}
+
+.product_img_container{
+    width: 10px;
+}
+.FormGroup {
+	margin: 0 15px 20px;
+	padding: 0;
+	border-style: none;
+	background-color: #7795f8;
+	will-change: opacity, transform;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #829fff;
+	border-radius: 4px;
+}
+
+.FormRow {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-left: 15px;
+	border-top: 1px solid #819efc;
+}
+
+#promo_code{
+    width: 200px;
+    height: 40px;
+}
